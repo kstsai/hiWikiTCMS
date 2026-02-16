@@ -19,3 +19,6 @@ Fails the pipeline if required test groups fail
 
 
 Results persist across pipeline executions and feed into your QA approval flow.```
+
+- docker-compose up -d
+- docker exec -it kiwi_web /Kiwi/manage.py initial_setup
